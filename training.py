@@ -36,4 +36,4 @@ print(type(x))
 #snakecase = my_car
 
 #Exercise 1.8
-#yes, because the memory location for the original value will be overridden by the new value and the pointer will be pointed towards the new value. 
+#yes, because the old memory location of the first variable will be overwritten by the 2nd value. 
