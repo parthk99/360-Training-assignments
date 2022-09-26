@@ -91,3 +91,29 @@ else :
     print("Not recognized.")
 
 #Exercises 2.3
+#Exercise 2.4
+user = int(input("Enter either a positive or a negative number"))
+if user <=0:
+    print("its over")
+if user >0:
+    print("Good going")
+
+#Exercise 2.5
+x = range(2000, 3201)
+for i in x:
+    if i%7 == 0 and i%5 != 0: 
+         print(i)
+
+
+# Exercise 2.6(1)
+# "int"object is not iterable
+# 2.6(2)
+# "break" outside loop
+# 2.6(3)
+# the output is infinite
+
+# Exercise 2.7
+for x in range(6):
+    if (x == 3 or x==6):
+        continue
+    print(x,end=' ')
