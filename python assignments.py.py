@@ -105,15 +105,30 @@ for i in x:
          print(i)
 
 
-# Exercise 2.6(1)
-# "int"object is not iterable
-# 2.6(2)
-# "break" outside loop
-# 2.6(3)
-# the output is infinite
+#Exercise 2.6(1)
+#"int"object is not iterable
+#2.6(2)
+#"break" outside loop
+#2.6(3)
+#the output is infinite
 
-# Exercise 2.7
+#Exercise 2.7
 for x in range(6):
     if (x == 3 or x==6):
         continue
     print(x,end=' ')
+
+#Exercise 2.8
+x = input("Write your name with the year of your birth")
+digit=alpha=0
+for ch in x:
+    if ch.isdigit():
+        digit = digit + 1
+    elif ch.isalpha():
+        alpha = alpha + 1
+    else:
+        pass
+print("Digits", digit)
+print("Letters", alpha)
+
+#Exercise 2.9
